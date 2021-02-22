@@ -7,3 +7,8 @@ in crystalline structure --> application of magnetic field which generates void 
 run main_ion.py to generate plot of simulated drift of ions vs elapsed time.
 
 run main_gibson.py to plot regions accessoble to electrons with B field presence.
+
+Code is translate to C++ (see dustyplasma_cpp folder)
+
+Code can also be controlled by GUI (see gui folder) : this may be problematic as there are still minor bug fixes to be made.
+
