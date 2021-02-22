@@ -7,7 +7,12 @@ from tqdm import tqdm
 
 import constants as const
 from particles.dust import Dust
-from utils.interpolate import interpolate
+import os
+import sys
+currentdir=os.getcwd()
+sys.path.insert(1, '{}/../utils'.format(currentdir))
+
+import interpolate
 
 
 class BEffectsAnalysis:
