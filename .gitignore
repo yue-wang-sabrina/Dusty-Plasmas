@@ -1,0 +1,8 @@
+*.obj
+*.mp4
+*.idea
+*.png
+*.ipynb_checkpoints
+*.txt
+
+__pycache__
