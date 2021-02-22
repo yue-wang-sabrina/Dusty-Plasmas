@@ -11,7 +11,7 @@ sys.path.insert(1, '{}/../objects'.format(currentdir))
 
 def generate_particle_equilibrium_positions():
     # Generate particles in their equilibrium position
-    filehandler = open("../objects/crystalpositions2K.obj",
+    filehandler = open("objects/crystalpositions2K.obj",
                        'rb')  ##2k particles 5.5hrs to run 2500 iterations just for settling down
     xinit = pickle.load(filehandler)
     yinit = pickle.load(filehandler)
@@ -33,7 +33,7 @@ def plot_particle_equilibrium_positions(initpositions):
 
 def prepare_modified_b_field():
     # Prepare modified B field
-    filehandler = open("../objects/modifiedfield.obj",
+    filehandler = open("objects/modifiedfield.obj",
                        'rb')  ##2k particles 5.5hrs to run 2500 iterations just for settling down
     gridr = pickle.load(filehandler)
     gridz = pickle.load(filehandler)

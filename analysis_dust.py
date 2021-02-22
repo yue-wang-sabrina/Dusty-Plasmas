@@ -9,10 +9,10 @@ import constants as const
 from particles.dust import Dust
 import os
 import sys
-currentdir=os.getcwd()
-sys.path.insert(1, '{}/../utils'.format(currentdir))
+# currentdir=os.getcwd()
+# sys.path.insert(1, '{}/../utils/'.format(currentdir))
 
-import interpolate
+from utils.interpolate import interpolate
 
 
 class BEffectsAnalysis:

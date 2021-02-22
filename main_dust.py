@@ -1,4 +1,9 @@
 # This file is mainly for looking at B field effects of crystals that are already formed.
+import os
+import sys
+currentdir=os.getcwd()
+sys.path.insert(1,"{}/utils".format(currentdir))
+sys.path.insert(1,"{}/plots".format(currentdir))
 
 from analysis_dust import BEffectsAnalysis
 from utils.utils import generate_particle_equilibrium_positions, prepare_modified_b_field
